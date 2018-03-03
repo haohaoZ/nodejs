@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS 全局样式 */
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input{margin:0;padding:0}
+body{font-family: "微软雅黑";}
+ul,ol,li{list-style:none;}
+b,strong{font-weight:100;}
+em,i{font-style:normal;}
+h1,h2,h3,h4,h5,h6{font-weight:100;font-size:16px;}
+a,u{text-decoration: none;}
+input{outline:none;}
+img{display:block;border:0;}
+.clearfix:after{content:".";clear:both;display:block;height:0;overflow: hidden;visibility: hidden;}
+.clearfix{zoom:1;}
+
+body{
+	overflow: auto;
+	padding: 0 10px;
+}
+/* ----------------- header --------------- */
+header div{
+	text-align: center;
+	padding: 15px 0;
+} 
+/* ----------------- main --------------- */
+main table{
+	border-collapse:collapse;
+	width:100%;
+}
+main table tr{
+	display: none;
+}
+main table tr:nth-child(1){
+	display:table-row;
+}
+main table th{
+	border: 1px solid;
+	height:60px;
+}
+main table td{
+	border: 1px solid;
+	text-align: center;
+	height:60px;
+}
+
+/* ----------------- footer --------------- */
+footer{
+	box-sizing: border-box;
+	padding: 10px;
+	height:50px;
+	width:100%;
+	background: gainsboro;
+	text-align: right;
+}
+footer #count{
+	width:30px;
+}
+

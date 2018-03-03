@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS 全局样式 */
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input{margin:0;padding:0}
+body{font-family: "微软雅黑";}
+ul,ol,li{list-style:none;}
+b,strong{font-weight:100;}
+em,i{font-style:normal;}
+h1,h2,h3,h4,h5,h6{font-weight:100;font-size:16px;}
+a,u{text-decoration: none;}
+input{outline:none;}
+img{display:block;border:0;}
+.clearfix:after{content:".";clear:both;display:block;height:0;overflow: hidden;visibility: hidden;}
+.clearfix{zoom:1;}
+
+body{
+	overflow: auto;
+}
+/* ----------------- nav --------------- */
+nav{
+	background: #efefef;
+	height:50px;
+	overflow: hidden;
+}
+nav ul{
+	display: flex;
+	height:100%;
+	align-items: center;
+}
+nav ul li{
+	cursor: pointer;
+	height: 100%;
+	line-height: 50px;
+	padding: 0 10px;
+}
+/* ----------------- main --------------- */
+main form>div table{
+	border-spacing: 15px;
+}
+main form>div td{
+	width:400px;
+	font-size: 14px;
+	vertical-align: top;
+}
+main form>div td:nth-child(odd){
+	text-align: right;
+}
+main .button{
+	text-align: center;
+}
